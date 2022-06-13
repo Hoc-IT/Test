@@ -99,49 +99,39 @@ html{
 #nav{
     display: inline-block;
 }
-
 #nav .subnav{
     list-style-type: none;
 }
-
 #nav li{
     position: relative;
 }
-
 #nav > li{
     display: inline-block;
 }
-
-
 #nav >li >a {
     color: #fff;
     text-transform: uppercase;
-
 }
 #nav li a{
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
     display: block;
-
 }
 #nav >li:hover> a,
 #nav .subnav li:hover{
     color: #000;
     background-color: #ccc;
 }
-
 #nav li:hover .subnav{
     display: block;
 }
-
 #nav .subnav{
     display: none;
     position: absolute;
     /* Hiệu chỉnh đúng vị trí khi mà web không hiển thị đúng vị trí (more) */
     top: 100%;
     left: 0;
-
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     min-width: 160px;
@@ -174,21 +164,14 @@ html{
     color: #fff;
     font-size: 20px;
     line-height: 46px;
-    
-}#header .search-icon
+}
 
 #slider {
-    /* Khi thêm thuộc tính position thì phần
-    header nổi lên nhường chổ cho slider
-    nên margin-top kéo dãn vị trí ở trên bằng
-    với giá trị header tránh chiếm chổ của header */
     margin-top: 46px;
     padding-top: 50%;
-    /* url backgroud img - background positione
-     / background size - background repeat ( không lập lại hình  */
-    background: url('/assets/img/slider1/chicago.jpg') top center / cover no-repeat;
-
+    background: url('/assets/img/slider1/chicago.jpg') top center/ cover no-repeat;
 }
+
 #slider .text-content{
     position:relative;
     bottom: 47px;
@@ -198,11 +181,11 @@ html{
 
 }
 #slider .text-heading{
-    font-weight: 300;
-    font-size: 24;
+    font-weight: 300px;
+    font-size: 24px;
 }
 #slider .text-description{
-    font-size: 15;
+    font-size: 15px;
     margin-top: 25px;
 }
 /*Content*/
